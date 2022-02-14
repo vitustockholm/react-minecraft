@@ -1,6 +1,10 @@
+CONTROLLERS
+
 W,S,A,D - CONTROLLERS
 1,2,3,4,5 - choose textured item
 
+--------------------------------------
+![MINECRAFT](/1.png)
 ## How to play?
 
 Currently it has 5 types of blocks: Grass, Wood, Log, Glass and Dirt.
