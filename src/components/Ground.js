@@ -1,11 +1,17 @@
 import React from 'react';
 import { usePlane } from 'use-cannon';
-import { TextureLoader, RepeatWrapping, NearestFilter, LinearMipMapLinearFilter } from 'three';
+import {
+  TextureLoader,
+  RepeatWrapping,
+  NearestFilter,
+  LinearMipMapLinearFilter,
+} from 'three';
 
 import grass from '../images/grass.jpg';
 import { useStore } from '../hooks/useStore';
 
 export const Ground = (props) => {
+  // rotation hook from cannon
   const [ref] = usePlane(() => ({ rotation: [-Math.PI / 2, 0, 0], ...props }));
   const texture = new TextureLoader().load(grass);
 
@@ -17,6 +23,7 @@ export const Ground = (props) => {
   texture.minFilter = LinearMipMapLinearFilter;
   texture.wrapS = RepeatWrapping;
   texture.wrapT = RepeatWrapping;
+  // repeaeting itself everytime
   texture.repeat.set(100, 100);
   return (
     <mesh
@@ -25,13 +32,13 @@ export const Ground = (props) => {
       onClick={(e) => {
         e.stopPropagation();
         const [x, y, z] = Object.values(e.point).map((coord) =>
-          Math.ceil(coord),
+          Math.ceil(coord)
         );
         addCube(x, y, z, activeTexture);
       }}
     >
-      <planeBufferGeometry attach="geometry" args={[100, 100]} />
-      <meshStandardMaterial map={texture} attach="material" />
+      <planeBufferGeometry attach='geometry' args={[100, 100]} />
+      <meshStandardMaterial map={texture} attach='material' />
     </mesh>
   );
 };

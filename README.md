@@ -1,10 +1,5 @@
-# Welcome to React three fiber Minecraft
-
-This project is just me trying to mimic Minecraft in React.
-How i did it can be seen in this Youtube video:
-[![Video preview](https://img.youtube.com/vi/aWQmuTiThTs/0.jpg)](https://www.youtube.com/watch?v=aWQmuTiThTs)
-
-Demo: https://minecraft-js.vercel.app/
+W,S,A,D - CONTROLLERS
+1,2,3,4,5 - choose textured item
 
 ## How to play?
 

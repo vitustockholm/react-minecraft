@@ -1,4 +1,8 @@
+// A small, fast and scalable bearbones state-management solution using simplified flux principles.
+
 import create from 'zustand';
+
+// A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
 import { nanoid } from 'nanoid';
 
 const getLocalStorage = (key) => JSON.parse(window.localStorage.getItem(key));

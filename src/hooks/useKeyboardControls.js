@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useStore } from './useStore';
 
+// Controling actions interface
 function actionByKey(key) {
   const keys = {
     KeyW: 'moveForward',
@@ -12,6 +13,7 @@ function actionByKey(key) {
   return keys[key];
 }
 
+// Textures controller
 function textureByKey(key) {
   const keys = {
     Digit1: 'dirt',
