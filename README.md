@@ -9,7 +9,6 @@ You navigate the world with the mouse and WASD.
 You can click to add blocks and Q+Click to remove blocks.
 You world is stored in your browsers local storage.
 
-![Preview](preview.png 'Preview')
 
 ## Want to extend, develop modify?
 
