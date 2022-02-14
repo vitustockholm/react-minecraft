@@ -1,6 +1,10 @@
+CONTROLLERS
+
 W,S,A,D - CONTROLLERS
 1,2,3,4,5 - choose textured item
 
+--------------------------------------
+![MINECRAFT](/1.png)
 ## How to play?
 
 Currently it has 5 types of blocks: Grass, Wood, Log, Glass and Dirt.
@@ -9,7 +13,6 @@ You navigate the world with the mouse and WASD.
 You can click to add blocks and Q+Click to remove blocks.
 You world is stored in your browsers local storage.
 
-![Preview](preview.png 'Preview')
 
 ## Want to extend, develop modify?
 
