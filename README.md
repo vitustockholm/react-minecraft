@@ -3,6 +3,7 @@ CONTROLLERS
 W,S,A,D - CONTROLLERS
 1,2,3,4,5 - choose textured item
 
+https://react-minecraft-ashy.vercel.app/
 --------------------------------------
 
 ## How to play?
